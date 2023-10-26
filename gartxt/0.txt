@@ -1,0 +1,11 @@
+2023.9.1
+Q:
+ERROR: Could not find a version that satisfies the requirement cv2 (from versions: none)
+ERROR: No matching distribution found for cv2
+A:
+pip install opencv-python -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+
+2023.9末
+Q&A:
+手写字符时使用 train嘻嘻嘻里面数据（--datapath=）

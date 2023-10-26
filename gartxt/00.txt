@@ -1,0 +1,27 @@
+2023.9.4
+\r小特性
+print('\r{:3}'.format())
+format后括号内为int，结果向右对齐
+反之向左
+for i in range(101):
+    print("\r{:3}%".format(i),end='',flush=True)
+    time.sleep(0.1)
+for i in range(101):
+    print("\r{:3}%".format(str(i)),end='',flush=True)
+    time.sleep(0.1)
+
+2023.9.6
+经典错误1
+if b != 'N' or 'n':
+一个很好的平替
+if b.lower() != 'n':
+
+2023.9.7
+学单词
+iteration n.迭代  （for）
+traversal n.遍历
+loop n.循环 
+recursion n.递归
+
+2023.9.10
+yield 语句不是强行停止代码，更像是记录下一个个节点 #生成器
